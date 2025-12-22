@@ -1,0 +1,143 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found moveit: 2.12.3 (/opt/ros/jazzy/share/moveit/cmake)
+-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found xarm_msgs: 0.0.0 (/home/erum/U850_ws/install/xarm_msgs/share/xarm_msgs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/erum/U850_ws/src/xarm_ros2/xarm_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.9s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/erum/U850_ws/build/xarm_planner
+[  4%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_joint.dir/test/test_xarm_planner_client_joint.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/xarm_planner.dir/src/xarm_planner.cpp.o[0m
+[ 13%] [32m[1mLinking CXX executable test_xarm_planner_client_joint[0m
+[ 13%] Built target test_xarm_planner_client_joint
+[ 18%] [32m[1mLinking CXX shared library libxarm_planner.so[0m
+[ 18%] Built target xarm_planner
+[ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_pose.dir/test/test_xarm_planner_client_pose.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable test_xarm_planner_client_pose[0m
+[ 27%] Built target test_xarm_planner_client_pose
+[ 31%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_client_joint.dir/test/test_xarm_gripper_planner_client_joint.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable test_xarm_gripper_planner_client_joint[0m
+[ 36%] Built target test_xarm_gripper_planner_client_joint
+[ 40%] [32mBuilding CXX object CMakeFiles/test_lite_gripper_realmove.dir/test/test_lite_gripper_realmove.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable test_lite_gripper_realmove[0m
+[ 45%] Built target test_lite_gripper_realmove
+[ 50%] [32mBuilding CXX object CMakeFiles/xarm_planner_node.dir/src/xarm_planner_node.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable xarm_planner_node[0m
+[ 54%] Built target xarm_planner_node
+[ 59%] [32mBuilding CXX object CMakeFiles/xarm_gripper_planner_node.dir/src/xarm_gripper_planner_node.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_joint.dir/test/test_xarm_planner_api_joint.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable xarm_gripper_planner_node[0m
+[ 68%] Built target xarm_gripper_planner_node
+[ 72%] [32m[1mLinking CXX executable test_xarm_planner_api_joint[0m
+[ 72%] Built target test_xarm_planner_api_joint
+[ 77%] [32mBuilding CXX object CMakeFiles/test_dual_xarm_planner_api_joint.dir/test/test_dual_xarm_planner_api_joint.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_dual_xarm_planner_api_joint[0m
+[ 81%] Built target test_dual_xarm_planner_api_joint
+[ 86%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_xarm_planner_api_pose[0m
+[ 90%] Built target test_xarm_planner_api_pose
+[ 95%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_api_joint.dir/test/test_xarm_gripper_planner_api_joint.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_xarm_gripper_planner_api_joint[0m
+[100%] Built target test_xarm_gripper_planner_api_joint
+-- Install configuration: ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/include
+-- Installing: /home/erum/U850_ws/install/xarm_planner/include/xarm_planner
+-- Installing: /home/erum/U850_ws/install/xarm_planner/include/xarm_planner/xarm_planner.h
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/libxarm_planner.so
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/libxarm_planner.so" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/xarm_planner_node
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/xarm_planner_node" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_lite_gripper_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_client_joint.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_gazebo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_pose.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_gazebo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_gazebo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_dual_xarm_planner_api_joint.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_gazebo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_joint.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_gazebo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_move_group.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_pose.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_joint.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_gazebo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/_dual_robot_planner.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/_robot_planner.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_api_joint.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/ament_index/resource_index/package_run_dependencies/xarm_planner
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/ament_index/resource_index/parent_prefix_path/xarm_planner
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.sh
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/path.sh
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/path.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.bash
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.sh
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.zsh
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/package.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/ament_index/resource_index/packages/xarm_planner
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig-version.cmake
+-- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/package.xml

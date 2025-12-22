@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4cd27ffb9f2b66bc2aa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "xarm_moveit_servo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5bf28c78dcf60fdabfb9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xarm_joystick_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xarm_joystick_input-af6873d4bb547670d98c.json",
+					"name" : "xarm_joystick_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xarm_joystick_input_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xarm_joystick_input_node-52e56fe1106ed4587ae9.json",
+					"name" : "xarm_joystick_input_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xarm_keyboard_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xarm_keyboard_input-58d9a869c2dd61f74dbe.json",
+					"name" : "xarm_keyboard_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xarm_moveit_servo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xarm_moveit_servo_uninstall-de053e1e6bd0bb8058af.json",
+					"name" : "xarm_moveit_servo_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/erum/U850_ws/build/xarm_moveit_servo",
+		"source" : "/home/erum/U850_ws/src/xarm_ros2/xarm_moveit_servo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,124 @@
+[0.016s] Invoking command in '/home/erum/U850_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/U850_ws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/erum/U850_ws/install/xarm_sdk
+[0.151s] -- The C compiler identification is GNU 13.3.0
+[0.232s] -- The CXX compiler identification is GNU 13.3.0
+[0.258s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.422s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.441s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.605s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.616s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.842s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.026s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.213s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.235s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.236s] -- Configured cppcheck include dirs: /home/erum/U850_ws/src/xarm_ros2/xarm_sdk/cxx/include
+[1.236s] -- Configured cppcheck exclude dirs and/or files: 
+[1.253s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.256s] -- Configured cpplint exclude dirs and/or files: 
+[1.264s] -- Added test 'lint_cmake' to check CMake code style
+[1.286s] -- Added test 'uncrustify' to check C / C++ code style
+[1.287s] -- Configured uncrustify additional arguments: 
+[1.291s] -- Added test 'xmllint' to check XML markup files
+[1.298s] -- Configuring done (1.3s)
+[1.311s] -- Generating done (0.0s)
+[1.321s] -- Build files have been written to: /home/erum/U850_ws/build/xarm_sdk
+[1.328s] Invoked command in '/home/erum/U850_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/U850_ws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/erum/U850_ws/install/xarm_sdk
+[1.330s] Invoking command in '/home/erum/U850_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/U850_ws/build/xarm_sdk -- -j2 -l2
+[1.414s] [  3%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_linux.cc.o[0m
+[1.439s] [  6%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_osx.cc.o[0m
+[1.484s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_win.cc.o[0m
+[1.541s] [ 12%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/unix.cc.o[0m
+[2.842s] [ 15%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/win.cc.o[0m
+[2.878s] [ 18%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/serial.cc.o[0m
+[2.899s] [ 21%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/crc16.cc.o[0m
+[3.003s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/queue_memcpy.cc.o[0m
+[3.350s] [ 28%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/connect.cc.o[0m
+[3.556s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/debug/debug_print.cc.o[0m
+[3.636s] [ 34%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd.cc.o[0m
+[4.220s] [ 37%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_ser.cc.o[0m
+[5.093s] [ 40%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_tcp.cc.o[0m
+[5.423s] [ 43%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/os/network.cc.o[0m
+[5.796s] [ 46%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/ser.cc.o[0m
+[6.059s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/socket.cc.o[0m
+[6.541s] [ 53%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/report_data.cc.o[0m
+[6.735s] [ 56%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_api.cc.o[0m
+[7.023s] [ 59%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_bio.cc.o[0m
+[9.661s] [ 62%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_events.cc.o[0m
+[14.989s] [ 65%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_ft_sensor.cc.o[0m
+[16.098s] [ 68%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gpio.cc.o[0m
+[17.149s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gripper.cc.o[0m
+[18.672s] [ 75%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_linear_motor.cc.o[0m
+[19.651s] [ 78%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_modbus_tcp.cc.o[0m
+[20.893s] [ 81%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_motion.cc.o[0m
+[21.738s] [ 84%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_params.cc.o[0m
+[22.972s] [ 87%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_record.cc.o[0m
+[23.887s] [ 90%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_report.cc.o[0m
+[25.062s] [ 93%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_robotiq.cc.o[0m
+[26.269s] [ 96%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_servo.cc.o[0m
+[28.047s] [100%] [32m[1mLinking CXX shared library libxarm_cxx_sdk.so[0m
+[28.471s] [100%] Built target xarm_cxx_sdk
+[28.504s] Invoked command in '/home/erum/U850_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/U850_ws/build/xarm_sdk -- -j2 -l2
+[28.511s] Invoking command in '/home/erum/U850_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/U850_ws/build/xarm_sdk
+[28.535s] -- Install configuration: ""
+[28.538s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[28.538s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[28.539s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include
+[28.539s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/serial
+[28.539s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/serial/impl
+[28.539s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/serial/impl/win.h
+[28.539s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[28.540s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/serial/serial.h
+[28.540s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[28.540s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm
+[28.540s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/wrapper
+[28.540s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common
+[28.541s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[28.541s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/port
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/instruction
+[28.544s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[28.545s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[28.545s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[28.545s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[28.549s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[28.549s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/common
+[28.549s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[28.549s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[28.549s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[28.550s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[28.550s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/os
+[28.551s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/os/bak
+[28.551s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[28.551s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[28.552s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/debug
+[28.555s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[28.555s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[28.555s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[28.555s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[28.557s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[28.558s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[28.558s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[28.558s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[28.559s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[28.559s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[28.559s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[28.559s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[28.560s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[28.560s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[28.561s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/package.dsv
+[28.561s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[28.561s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[28.561s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.562s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[28.564s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[28.564s] -- Installing: /home/erum/U850_ws/install/xarm_sdk/share/xarm_sdk/package.xml
+[28.566s] Invoked command in '/home/erum/U850_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/U850_ws/build/xarm_sdk

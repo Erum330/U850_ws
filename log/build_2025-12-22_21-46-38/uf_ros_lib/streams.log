@@ -1,0 +1,61 @@
+[2.394s] Invoking command in '/home/erum/U850_ws/src/xarm_ros2/uf_ros_lib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/erum/U850_ws/build/uf_ros_lib/build install --record /home/erum/U850_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data
+[2.820s] running egg_info
+[2.820s] creating ../../../build/uf_ros_lib/uf_ros_lib.egg-info
+[2.848s] writing ../../../build/uf_ros_lib/uf_ros_lib.egg-info/PKG-INFO
+[2.848s] writing dependency_links to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/dependency_links.txt
+[2.848s] writing requirements to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/requires.txt
+[2.848s] writing top-level names to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/top_level.txt
+[2.848s] writing manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[2.906s] reading manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[2.909s] writing manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[2.909s] running build
+[2.909s] running build_py
+[2.909s] creating /home/erum/U850_ws/build/uf_ros_lib/build
+[2.909s] creating /home/erum/U850_ws/build/uf_ros_lib/build/lib
+[2.909s] creating /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[2.909s] copying uf_ros_lib/moveit_configs_builder.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[2.910s] copying uf_ros_lib/uf_robot_utils.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[2.920s] copying uf_ros_lib/parameter_descriptions.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[2.920s] copying uf_ros_lib/__init__.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[2.920s] creating /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.921s] copying uf_ros_lib/substitutions/planning_pipelines.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.921s] copying uf_ros_lib/substitutions/common.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.921s] copying uf_ros_lib/substitutions/kinematics.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.921s] copying uf_ros_lib/substitutions/__init__.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.922s] copying uf_ros_lib/substitutions/controllers.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.922s] copying uf_ros_lib/substitutions/joint_limits.py -> /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[2.924s] running install
+[2.942s] running install_lib
+[2.984s] creating /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[2.984s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/moveit_configs_builder.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[2.984s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/uf_robot_utils.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[2.984s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/parameter_descriptions.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[2.984s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/__init__.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib
+[2.985s] creating /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.985s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/planning_pipelines.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.985s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/common.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.985s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/kinematics.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.987s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/__init__.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.987s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/controllers.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.987s] copying /home/erum/U850_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/joint_limits.py -> /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions
+[2.987s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/moveit_configs_builder.py to moveit_configs_builder.cpython-312.pyc
+[3.008s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/uf_robot_utils.py to uf_robot_utils.cpython-312.pyc
+[3.011s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/parameter_descriptions.py to parameter_descriptions.cpython-312.pyc
+[3.013s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/__init__.py to __init__.cpython-312.pyc
+[3.013s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/planning_pipelines.py to planning_pipelines.cpython-312.pyc
+[3.016s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/common.py to common.cpython-312.pyc
+[3.018s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/kinematics.py to kinematics.cpython-312.pyc
+[3.019s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/__init__.py to __init__.cpython-312.pyc
+[3.020s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/controllers.py to controllers.cpython-312.pyc
+[3.024s] byte-compiling /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib/substitutions/joint_limits.py to joint_limits.cpython-312.pyc
+[3.029s] running install_data
+[3.029s] creating /home/erum/U850_ws/install/uf_ros_lib/share/ament_index
+[3.030s] creating /home/erum/U850_ws/install/uf_ros_lib/share/ament_index/resource_index
+[3.030s] creating /home/erum/U850_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[3.030s] copying resource/uf_ros_lib -> /home/erum/U850_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[3.032s] copying package.xml -> /home/erum/U850_ws/install/uf_ros_lib/share/uf_ros_lib
+[3.032s] running install_egg_info
+[3.073s] Copying ../../../build/uf_ros_lib/uf_ros_lib.egg-info to /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib-0.0.0-py3.12.egg-info
+[3.077s] running install_scripts
+[3.380s] writing list of installed files to '/home/erum/U850_ws/build/uf_ros_lib/install.log'
+[3.415s] Invoked command in '/home/erum/U850_ws/src/xarm_ros2/uf_ros_lib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/erum/U850_ws/build/uf_ros_lib/build install --record /home/erum/U850_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data

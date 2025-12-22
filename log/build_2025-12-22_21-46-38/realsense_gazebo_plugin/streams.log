@@ -1,0 +1,52 @@
+[0.030s] Invoking command in '/home/erum/U850_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/U850_ws/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/erum/U850_ws/install/realsense_gazebo_plugin
+[0.145s] -- The C compiler identification is GNU 13.3.0
+[0.282s] -- The CXX compiler identification is GNU 13.3.0
+[0.347s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.626s] -- Detecting CXX compiler ABI info
+[0.893s] -- Detecting CXX compiler ABI info - done
+[0.919s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.919s] -- Detecting CXX compile features
+[0.921s] -- Detecting CXX compile features - done
+[0.926s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.190s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.487s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.590s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.623s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.003s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.021s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[2.212s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.504s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.675s] -- Configuring done (2.6s)
+[2.683s] -- Generating done (0.0s)
+[2.687s] -- Build files have been written to: /home/erum/U850_ws/build/realsense_gazebo_plugin
+[2.701s] Invoked command in '/home/erum/U850_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/erum/U850_ws/src/xarm_ros2/thirdparty/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/erum/U850_ws/install/realsense_gazebo_plugin
+[2.702s] Invoking command in '/home/erum/U850_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/U850_ws/build/realsense_gazebo_plugin -- -j2 -l2
+[2.789s] Invoked command in '/home/erum/U850_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/erum/U850_ws/build/realsense_gazebo_plugin -- -j2 -l2
+[2.791s] Invoking command in '/home/erum/U850_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/U850_ws/build/realsense_gazebo_plugin
+[2.816s] -- Install configuration: ""
+[2.827s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+[2.829s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+[2.831s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+[2.831s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+[2.831s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+[2.831s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+[2.832s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+[2.832s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+[2.832s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+[2.832s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+[2.834s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+[2.834s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+[2.834s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+[2.834s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+[2.834s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.835s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[2.835s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[2.835s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[2.835s] -- Installing: /home/erum/U850_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[2.837s] Invoked command in '/home/erum/U850_ws/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/erum/U850_ws/build/realsense_gazebo_plugin

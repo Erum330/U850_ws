@@ -1,0 +1,34 @@
+[0.066s] Invoking command in '/home/erum/U850_ws/build/xarm_planner': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/U850_ws/install/xarm_gazebo/lib:/home/erum/U850_ws/install/xarm_controller/lib:/home/erum/U850_ws/install/xarm_api/lib:/home/erum/U850_ws/install/xarm_sdk/lib:/home/erum/U850_ws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/erum/U850_ws/src/xarm_ros2/xarm_planner -DCMAKE_INSTALL_PREFIX=/home/erum/U850_ws/install/xarm_planner
+[0.194s] -- The C compiler identification is GNU 13.3.0
+[0.281s] -- The CXX compiler identification is GNU 13.3.0
+[0.319s] -- Detecting C compiler ABI info
+[0.494s] -- Detecting C compiler ABI info - done
+[0.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.514s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.535s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.741s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.748s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.054s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.304s] [31mCMake Error at CMakeLists.txt:27 (find_package):
+[1.305s]   By not providing "Findmoveit.cmake" in CMAKE_MODULE_PATH this project has
+[1.305s]   asked CMake to find a package configuration file provided by "moveit", but
+[1.305s]   CMake did not find one.
+[1.305s] 
+[1.305s]   Could not find a package configuration file provided by "moveit" with any
+[1.305s]   of the following names:
+[1.305s] 
+[1.305s]     moveitConfig.cmake
+[1.305s]     moveit-config.cmake
+[1.305s] 
+[1.306s]   Add the installation prefix of "moveit" to CMAKE_PREFIX_PATH or set
+[1.306s]   "moveit_DIR" to a directory containing one of the above files.  If "moveit"
+[1.306s]   provides a separate development package or SDK, be sure it has been
+[1.306s]   installed.
+[1.306s] 
+[1.306s] [0m
+[1.306s] -- Configuring incomplete, errors occurred!
+[1.316s] Invoked command in '/home/erum/U850_ws/build/xarm_planner' returned '1': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/U850_ws/install/xarm_gazebo/lib:/home/erum/U850_ws/install/xarm_controller/lib:/home/erum/U850_ws/install/xarm_api/lib:/home/erum/U850_ws/install/xarm_sdk/lib:/home/erum/U850_ws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/erum/U850_ws/src/xarm_ros2/xarm_planner -DCMAKE_INSTALL_PREFIX=/home/erum/U850_ws/install/xarm_planner

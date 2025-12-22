@@ -1,0 +1,47 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/xarm_joystick_input.dir/src/xarm_joystick_input.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/xarm_joystick_input_node.dir/rclcpp_components/node_main_xarm_joystick_input_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable xarm_joystick_input_node[0m
+[ 50%] Built target xarm_joystick_input_node
+[ 66%] [32mBuilding CXX object CMakeFiles/xarm_keyboard_input.dir/src/xarm_keyboard_input.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable xarm_keyboard_input[0m
+[ 83%] Built target xarm_keyboard_input
+[100%] [32m[1mLinking CXX shared library libxarm_joystick_input.so[0m
+[100%] Built target xarm_joystick_input
+-- Install configuration: ""
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_joystick_input_node
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_joystick_input_node" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/lib/libxarm_joystick_input.so
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_moveit_servo/lib/libxarm_joystick_input.so" to ""
+-- Up-to-date: /home/erum/U850_ws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_joystick_input_node
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input
+-- Set non-toolchain portion of runtime path of "/home/erum/U850_ws/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input" to ""
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//config
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//config/xarm_moveit_servo_config.yaml
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/lite6_moveit_servo_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/uf850_moveit_servo_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/uf850_moveit_servo_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/xarm_moveit_servo_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/xarm_moveit_servo_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/lite6_moveit_servo_realmove.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo_fake.launch.py
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//rviz
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo//rviz/servo.rviz
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/ament_index/resource_index/package_run_dependencies/xarm_moveit_servo
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/ament_index/resource_index/parent_prefix_path/xarm_moveit_servo
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/ament_prefix_path.sh
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/ament_prefix_path.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/path.sh
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/path.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.bash
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.sh
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.zsh
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/package.dsv
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/ament_index/resource_index/packages/xarm_moveit_servo
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/ament_index/resource_index/rclcpp_components/xarm_moveit_servo
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/cmake/xarm_moveit_servoConfig.cmake
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/cmake/xarm_moveit_servoConfig-version.cmake
+-- Installing: /home/erum/U850_ws/install/xarm_moveit_servo/share/xarm_moveit_servo/package.xml

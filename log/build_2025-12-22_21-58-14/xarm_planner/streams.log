@@ -1,0 +1,75 @@
+[0.037s] Invoking command in '/home/erum/U850_ws/build/xarm_planner': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/U850_ws/install/xarm_gazebo/lib:/home/erum/U850_ws/install/xarm_controller/lib:/home/erum/U850_ws/install/xarm_api/lib:/home/erum/U850_ws/install/xarm_sdk/lib:/home/erum/U850_ws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erum/U850_ws/build/xarm_planner -- -j2 -l2
+[0.160s] [  9%] Built target test_xarm_planner_client_joint
+[0.217s] [ 18%] Built target test_xarm_planner_client_pose
+[0.250s] [ 27%] Built target xarm_planner
+[0.272s] [ 36%] Built target test_xarm_gripper_planner_client_joint
+[0.357s] [ 45%] Built target xarm_planner_node
+[0.359s] [ 54%] Built target test_lite_gripper_realmove
+[0.480s] [ 63%] Built target xarm_gripper_planner_node
+[0.484s] [ 72%] Built target test_xarm_planner_api_joint
+[0.560s] [ 81%] Built target test_dual_xarm_planner_api_joint
+[0.598s] [ 90%] Built target test_xarm_planner_api_pose
+[0.650s] [100%] Built target test_xarm_gripper_planner_api_joint
+[0.672s] Invoked command in '/home/erum/U850_ws/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/U850_ws/install/xarm_gazebo/lib:/home/erum/U850_ws/install/xarm_controller/lib:/home/erum/U850_ws/install/xarm_api/lib:/home/erum/U850_ws/install/xarm_sdk/lib:/home/erum/U850_ws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/erum/U850_ws/build/xarm_planner -- -j2 -l2
+[0.676s] Invoking command in '/home/erum/U850_ws/build/xarm_planner': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/U850_ws/install/xarm_gazebo/lib:/home/erum/U850_ws/install/xarm_controller/lib:/home/erum/U850_ws/install/xarm_api/lib:/home/erum/U850_ws/install/xarm_sdk/lib:/home/erum/U850_ws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erum/U850_ws/build/xarm_planner
+[0.689s] -- Install configuration: ""
+[0.689s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/include
+[0.690s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/include/xarm_planner
+[0.690s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/include/xarm_planner/xarm_planner.h
+[0.690s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/libxarm_planner.so
+[0.691s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/xarm_planner_node
+[0.692s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node
+[0.693s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint
+[0.694s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint
+[0.694s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose
+[0.695s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint
+[0.696s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint
+[0.697s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose
+[0.697s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint
+[0.698s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove
+[0.698s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch
+[0.699s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_lite_gripper_realmove.launch.py
+[0.699s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_client_joint.launch.py
+[0.699s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_gazebo.launch.py
+[0.699s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_realmove.launch.py
+[0.699s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_pose.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_fake.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_realmove.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_fake.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_gazebo.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_gazebo.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_dual_xarm_planner_api_joint.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_fake.launch.py
+[0.700s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_gazebo.launch.py
+[0.701s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_joint.launch.py
+[0.701s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_fake.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_gazebo.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_fake.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_fake.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_realmove.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_move_group.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_pose.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_joint.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_gazebo.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_realmove.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/_dual_robot_planner.launch.py
+[0.702s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_realmove.launch.py
+[0.703s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_realmove.launch.py
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/_robot_planner.launch.py
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_api_joint.launch.py
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/ament_index/resource_index/package_run_dependencies/xarm_planner
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/ament_index/resource_index/parent_prefix_path/xarm_planner
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.sh
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.dsv
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/path.sh
+[0.704s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/environment/path.dsv
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.bash
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.sh
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.zsh
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/local_setup.dsv
+[0.705s] -- Installing: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/package.dsv
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/ament_index/resource_index/packages/xarm_planner
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig-version.cmake
+[0.705s] -- Up-to-date: /home/erum/U850_ws/install/xarm_planner/share/xarm_planner/package.xml
+[0.708s] Invoked command in '/home/erum/U850_ws/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/erum/U850_ws/install/xarm_gazebo/lib:/home/erum/U850_ws/install/xarm_controller/lib:/home/erum/U850_ws/install/xarm_api/lib:/home/erum/U850_ws/install/xarm_sdk/lib:/home/erum/U850_ws/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/erum/U850_ws/build/xarm_planner
