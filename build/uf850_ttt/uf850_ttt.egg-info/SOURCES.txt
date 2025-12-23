@@ -9,6 +9,8 @@ setup.py
 ../../../build/uf850_ttt/uf850_ttt.egg-info/top_level.txt
 ../../../build/uf850_ttt/uf850_ttt.egg-info/zip-safe
 launch/spawn_pieces.launch.py
+launch/ttt_robot_spawn.launch.py
+launch/ttt_robot_unified.launch.py
 launch/ttt_simulation.launch.py
 launch/ttt_world.launch.py
 resource/uf850_ttt
