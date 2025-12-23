@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../build/uf850_ttt/uf850_ttt.egg-info/PKG-INFO
+writing dependency_links to ../../../build/uf850_ttt/uf850_ttt.egg-info/dependency_links.txt
+writing requirements to ../../../build/uf850_ttt/uf850_ttt.egg-info/requires.txt
+writing top-level names to ../../../build/uf850_ttt/uf850_ttt.egg-info/top_level.txt
+reading manifest file '../../../build/uf850_ttt/uf850_ttt.egg-info/SOURCES.txt'
+writing manifest file '../../../build/uf850_ttt/uf850_ttt.egg-info/SOURCES.txt'
+running build
+running build_py
+copying uf850_ttt/spawn_ttt_pieces.py -> /home/erum/U850_ws/build/uf850_ttt/build/lib/uf850_ttt
+running install
+running install_lib
+copying /home/erum/U850_ws/build/uf850_ttt/build/lib/uf850_ttt/spawn_ttt_pieces.py -> /home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages/uf850_ttt
+byte-compiling /home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages/uf850_ttt/spawn_ttt_pieces.py to spawn_ttt_pieces.cpython-312.pyc
+running install_data
+copying launch/spawn_pieces.launch.py -> /home/erum/U850_ws/install/uf850_ttt/share/uf850_ttt/launch
+running install_egg_info
+removing '/home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages/uf850_ttt-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../../build/uf850_ttt/uf850_ttt.egg-info to /home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages/uf850_ttt-0.0.1-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/erum/U850_ws/build/uf850_ttt/install.log'

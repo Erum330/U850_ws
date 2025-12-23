@@ -1,0 +1,19 @@
+[3.856s] Invoking command in '/home/erum/U850_ws/src/xarm_ros2/uf_ros_lib': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/erum/U850_ws/build/uf_ros_lib/build install --record /home/erum/U850_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data
+[4.815s] running egg_info
+[4.954s] writing ../../../build/uf_ros_lib/uf_ros_lib.egg-info/PKG-INFO
+[4.956s] writing dependency_links to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/dependency_links.txt
+[4.957s] writing requirements to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/requires.txt
+[4.964s] writing top-level names to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/top_level.txt
+[5.660s] reading manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[5.670s] writing manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[5.681s] running build
+[5.681s] running build_py
+[5.688s] running install
+[5.792s] running install_lib
+[6.057s] running install_data
+[6.057s] running install_egg_info
+[6.234s] removing '/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib-0.0.0-py3.12.egg-info' (and everything under it)
+[6.334s] Copying ../../../build/uf_ros_lib/uf_ros_lib.egg-info to /home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages/uf_ros_lib-0.0.0-py3.12.egg-info
+[6.371s] running install_scripts
+[7.593s] writing list of installed files to '/home/erum/U850_ws/build/uf_ros_lib/install.log'
+[7.662s] Invoked command in '/home/erum/U850_ws/src/xarm_ros2/uf_ros_lib' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/erum/U850_ws/build/uf_ros_lib/build install --record /home/erum/U850_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data

@@ -1,0 +1,46 @@
+[0.064s] Invoking command in '/home/erum/U850_ws/build/mbot_demo': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/uf_ros_lib:/home/erum/U850_ws/install/xarm_planner:/home/erum/U850_ws/install/xarm_moveit_servo:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/mbot_demo:/home/erum/U850_ws/install/realsense_gazebo_plugin:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages:/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/erum/U850_ws/build/mbot_demo -- -j2 -l2
+[0.229s] Invoked command in '/home/erum/U850_ws/build/mbot_demo' returned '0': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/uf_ros_lib:/home/erum/U850_ws/install/xarm_planner:/home/erum/U850_ws/install/xarm_moveit_servo:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/mbot_demo:/home/erum/U850_ws/install/realsense_gazebo_plugin:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages:/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/erum/U850_ws/build/mbot_demo -- -j2 -l2
+[0.232s] Invoking command in '/home/erum/U850_ws/build/mbot_demo': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/uf_ros_lib:/home/erum/U850_ws/install/xarm_planner:/home/erum/U850_ws/install/xarm_moveit_servo:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/mbot_demo:/home/erum/U850_ws/install/realsense_gazebo_plugin:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages:/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/erum/U850_ws/build/mbot_demo
+[0.290s] -- Install configuration: ""
+[0.293s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//rviz
+[0.295s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//rviz/moveit.rviz
+[0.295s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf
+[0.295s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf/mbot.ros2_control.xacro
+[0.295s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf/mbot_macro.xacro
+[0.295s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf/mbot_with_xarm.urdf.xacro
+[0.295s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf/mbot.urdf.xacro
+[0.296s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf/mbot.transmission.xacro
+[0.296s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//urdf/mbot.gazebo.xacro
+[0.296s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//srdf
+[0.296s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//srdf/mbot_macro.srdf.xacro
+[0.296s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//srdf/mbot_with_xarm.srdf.xacro
+[0.297s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//config
+[0.297s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//config/joint_limits.yaml
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//config/kinematics.yaml
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//config/controllers.yaml
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//config/ompl_planning.yaml
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//config/ros2_controllers.yaml
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//worlds
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//worlds/empty.world
+[0.301s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//launch
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//launch/mbot_moveit_fake.launch.py
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//launch/mbot_moveit_realmove.launch.py
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//launch/_robot_on_mbot_gz.launch.py
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//launch/mbot_moveit_gazebo.launch.py
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo//launch/_robot_on_mbot_gazebo.launch.py
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/ament_index/resource_index/package_run_dependencies/mbot_demo
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/ament_index/resource_index/parent_prefix_path/mbot_demo
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/environment/ament_prefix_path.sh
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/environment/ament_prefix_path.dsv
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/environment/path.sh
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/environment/path.dsv
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/local_setup.bash
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/local_setup.sh
+[0.302s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/local_setup.zsh
+[0.303s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/local_setup.dsv
+[0.307s] -- Installing: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/package.dsv
+[0.307s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/ament_index/resource_index/packages/mbot_demo
+[0.307s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/cmake/mbot_demoConfig.cmake
+[0.308s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/cmake/mbot_demoConfig-version.cmake
+[0.308s] -- Up-to-date: /home/erum/U850_ws/install/mbot_demo/share/mbot_demo/package.xml
+[0.309s] Invoked command in '/home/erum/U850_ws/build/mbot_demo' returned '0': AMENT_PREFIX_PATH=/home/erum/U850_ws/install/uf_ros_lib:/home/erum/U850_ws/install/xarm_planner:/home/erum/U850_ws/install/xarm_moveit_servo:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/xarm_moveit_config:/home/erum/U850_ws/install/xarm_gazebo:/home/erum/U850_ws/install/xarm_controller:/home/erum/U850_ws/install/xarm_api:/home/erum/U850_ws/install/xarm_sdk:/home/erum/U850_ws/install/xarm_msgs:/home/erum/U850_ws/install/xarm_description:/home/erum/U850_ws/install/mbot_demo:/home/erum/U850_ws/install/realsense_gazebo_plugin:/opt/ros/jazzy CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/erum/U850_ws/install/uf850_ttt:/home/erum/U850_ws/install/uf_ros_lib:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/erum/U850_ws/install/uf_ros_lib/lib/python3.12/site-packages:/home/erum/U850_ws/install/uf850_ttt/lib/python3.12/site-packages:/home/erum/U850_ws/install/xarm_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/erum/U850_ws/build/mbot_demo

@@ -4,13 +4,17 @@ setup.py
 ../../../build/uf850_ttt/uf850_ttt.egg-info/PKG-INFO
 ../../../build/uf850_ttt/uf850_ttt.egg-info/SOURCES.txt
 ../../../build/uf850_ttt/uf850_ttt.egg-info/dependency_links.txt
+../../../build/uf850_ttt/uf850_ttt.egg-info/entry_points.txt
 ../../../build/uf850_ttt/uf850_ttt.egg-info/requires.txt
 ../../../build/uf850_ttt/uf850_ttt.egg-info/top_level.txt
 ../../../build/uf850_ttt/uf850_ttt.egg-info/zip-safe
+launch/spawn_pieces.launch.py
 launch/ttt_simulation.launch.py
+launch/ttt_world.launch.py
 resource/uf850_ttt
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 uf850_ttt/__init__.py
+uf850_ttt/spawn_ttt_pieces.py
 worlds/ttt_master.world
