@@ -1,1 +1,0 @@
-rclcpp;gz-sim8;sdformat14;xarm_description;xarm_controller;launch;launch_ros;gz_ros2_control;ros_gz_bridge;ros_gz_sim;robot_state_publisher;uf_ros_lib;ament_lint_auto;ament_lint_common

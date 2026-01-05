@@ -1,2 +1,0 @@
-[console_scripts]
-spawn_ttt_pieces = uf850_ttt.spawn_ttt_pieces:main

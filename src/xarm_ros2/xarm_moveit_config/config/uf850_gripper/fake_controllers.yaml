@@ -7,3 +7,4 @@ uf850_gripper_traj_controller:
   default: true
   joints:
     - drive_joint
+

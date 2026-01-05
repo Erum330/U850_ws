@@ -81,7 +81,6 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{'use_sim_time': True}, robot_description],
     )
 
-    # Spawn robot into Gazebo from robot_description
     gazebo_spawn_entity_node = Node(
         package='ros_gz_sim',
         executable='create',
@@ -104,7 +103,6 @@ def launch_setup(context, *args, **kwargs):
         arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock'],
     )
 
-    # Service bridge for teleporting pieces (you already had this)
     set_pose_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -112,12 +110,69 @@ def launch_setup(context, *args, **kwargs):
         arguments=['/world/ttt_world/set_pose@ros_gz_interfaces/srv/SetEntityPose'],
     )
 
-    # ✅ NEW: Service bridge for spawning pieces
     spawn_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
         output='screen',
         arguments=['/world/ttt_world/create@ros_gz_interfaces/srv/SpawnEntity'],
+    )
+
+    # ----------------------------
+    # 4.1) Camera bridges (Gazebo -> ROS)
+    # ----------------------------
+    camera_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        output='screen',
+        arguments=[
+            '/ttt_camera/image@sensor_msgs/msg/Image[gz.msgs.Image',
+            '/ttt_camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo',
+        ],
+    )
+
+    # ----------------------------
+    # 4.2) Spawn overhead camera model
+    # ----------------------------
+    camera_sdf = r"""<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="ttt_camera">
+    <static>true</static>
+    <link name="link">
+      <sensor name="ttt_camera_sensor" type="camera">
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <visualize>true</visualize>
+        <topic>/ttt_camera/image</topic>
+        <camera_info_topic>/ttt_camera/camera_info</camera_info_topic>
+        <camera>
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>1280</width>
+            <height>720</height>
+            <format>RGB_INT8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>10.0</far>
+          </clip>
+        </camera>
+      </sensor>
+    </link>
+  </model>
+</sdf>
+"""
+
+    camera_spawn_node = Node(
+        package='ros_gz_sim',
+        executable='create',
+        output='screen',
+        arguments=[
+            '-name', 'ttt_camera',
+            '-string', camera_sdf,
+            '-x', '0.4', '-y', '0.0', '-z', '1.35',
+            '-R', '0.0', '-P', '1.57', '-Y', '0.0',
+        ],
+        parameters=[{'use_sim_time': True}],
     )
 
     # ----------------------------
@@ -143,7 +198,7 @@ def launch_setup(context, *args, **kwargs):
     )
 
     # ----------------------------
-    # 6) Controllers (spawn AFTER robot is created)
+    # 6) Controllers
     # ----------------------------
     controllers = [
         'joint_state_broadcaster',
@@ -162,7 +217,7 @@ def launch_setup(context, *args, **kwargs):
     ]
 
     # ----------------------------
-    # 7) Piece spawner node (NEW)
+    # 7) Pieces spawner
     # ----------------------------
     pieces_spawner_node = Node(
         package='uf850_ttt',
@@ -171,12 +226,6 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{'use_sim_time': True}],
     )
 
-    # Strategy:
-    # - Start gazebo + bridges immediately
-    # - Start robot_state_publisher
-    # - Spawn robot once robot_description exists
-    # - After robot is spawned, start controllers
-    # - After that, spawn pieces with a small delay so /world/ttt_world/create is ready & bridged
     return [
         gazebo_launch,
 
@@ -185,6 +234,9 @@ def launch_setup(context, *args, **kwargs):
         set_pose_bridge,
         spawn_bridge,
 
+        # camera bridge
+        camera_bridge,
+
         # publish robot model
         robot_state_publisher_node,
 
@@ -192,7 +244,7 @@ def launch_setup(context, *args, **kwargs):
         move_group_node,
         rviz_node,
 
-        # spawn robot after rsp starts (so robot_description exists)
+        # spawn robot after rsp starts
         RegisterEventHandler(
             OnProcessStart(
                 target_action=robot_state_publisher_node,
@@ -200,12 +252,14 @@ def launch_setup(context, *args, **kwargs):
             )
         ),
 
-        # spawn controllers after entity created
+        # spawn camera shortly after Gazebo starts
+        TimerAction(period=2.0, actions=[camera_spawn_node]),
+
+        # controllers + pieces after robot spawned
         RegisterEventHandler(
             OnProcessExit(
                 target_action=gazebo_spawn_entity_node,
                 on_exit=controller_nodes + [
-                    # ✅ NEW: spawn pieces after controllers are kicked off (with a short delay)
                     TimerAction(period=2.0, actions=[pieces_spawner_node])
                 ]
             )

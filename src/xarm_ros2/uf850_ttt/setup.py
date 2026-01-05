@@ -26,6 +26,8 @@ setup(
     entry_points={
         'console_scripts': [
             'spawn_ttt_pieces = uf850_ttt.spawn_ttt_pieces:main',
+            'pick_place_one = uf850_ttt.pick_place_one:main',
+            'cartesian_automation = uf850_ttt.cartesian_automation:main',
             # We will add your game_logic.py here in the next step
         ],
     },

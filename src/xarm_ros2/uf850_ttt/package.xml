@@ -11,6 +11,8 @@
   <depend>xarm_msgs</depend>
   <depend>xarm_api</depend>
   <depend>xarm_moveit_config</depend>
+  <depend>xarm_planner</depend>
+  <depend>moveit_commander</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
